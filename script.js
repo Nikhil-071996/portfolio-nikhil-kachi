@@ -16,13 +16,16 @@ const closeMenuBtn = document.querySelector('.fa-circle-xmark');
 const openMenuBtn = document.querySelector('.fa-bars');
 const menuBar = document.querySelector('nav');
 
-openMenuBtn.addEventListener('click' , () => {
-    menuBar.classList.add('active');
-   
-})
-closeMenuBtn.addEventListener('click' , () => {
-    menuBar.classList.remove('active')
-})
+function toggleMenu(){
+    if(menuBar.classList == 'active'){
+        menuBar.classList.remove('active')
+    }else{
+        menuBar.classList.add('active');
+    }
+}
+openMenuBtn.addEventListener('click' ,toggleMenu)
+closeMenuBtn.addEventListener('click' , toggleMenu)
+
 document.addEventListener('click' , e => {
     if(e.target !== openMenuBtn){
         menuBar.classList.remove('active');  
