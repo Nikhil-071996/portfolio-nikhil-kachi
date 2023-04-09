@@ -1,3 +1,11 @@
+// Handle Loading 
+const loading = document.querySelector('.loading')
+
+window.addEventListener('load' , () => {
+    loading.classList.add('hide')
+})
+
+
 // Changing to Dark Theme
 
 const body = document.body;
