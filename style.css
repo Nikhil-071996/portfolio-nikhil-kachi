@@ -98,6 +98,9 @@ header{
     background-color: var(--bg-color);
     z-index: 1000;
 }
+header a{
+    text-decoration: none;
+}
 .logo{
     font-size: 4rem;
     border: var(--text-color) solid 1px;
@@ -658,7 +661,7 @@ h2{
         padding-top: 70px;
      }
 }
-@media (max-width : 430px){
+@media (max-width : 550px){
     .contact .container{
        flex-direction: column;
      }
@@ -673,28 +676,32 @@ h2{
         width: 50%;
      }
 }
-@media (max-width : 375px){
+@media (max-width : 520px){
      .contact .col-2{
         flex-direction: column;
      }
      .contact .col-2 .row{
         width: 100%;
-        padding-left: 30px;
+        padding-left: 40px;
      }
 }
  /* Contact sections ends */
 
  /* Footer sections starts */
  
- .footer{
+ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
     width: 100vw;
     background-color: var(--main-text-color);
+    margin: 15px 0 0 0 ;
  }
- .footer .logo{
+ footer a{
+    text-decoration: none;
+ }
+ footer .logo{
      color: var(--bg-color);
      border: var(--bg-color) solid 1px;
      text-align: center;
