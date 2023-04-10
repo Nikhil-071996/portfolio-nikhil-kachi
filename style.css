@@ -689,7 +689,7 @@ h2{
 
  /* Footer sections starts */
  
- footer{
+footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -698,10 +698,10 @@ h2{
     background-color: var(--main-text-color);
     margin: 15px 0 0 0 ;
  }
- footer a{
+footer a{
     text-decoration: none;
  }
- footer .logo{
+footer .logo{
      color: var(--bg-color);
      border: var(--bg-color) solid 1px;
      text-align: center;
