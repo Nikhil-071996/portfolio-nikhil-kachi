@@ -61,3 +61,17 @@ cards.forEach((card ,idx) => {
         })
     })
 })
+
+
+// Handle Contact Form Functionality
+
+// let form = document.getElementById('contact-form')
+// let fullName = document.getElementById('name');
+// let emailForm = document.getElementById('email');
+// let subject = document.getElementById('suject');
+// let message = document.getElementById('Message');
+
+// form.addEventListener('submit' , (e) => {
+//     e.preventDefault()
+    
+// })
