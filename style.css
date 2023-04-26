@@ -365,6 +365,10 @@ table{
 table tr td{
     padding: 5px 0;
 }
+table tr td a{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
 table tr td i {
     color: var(--secondary-text-color);
 }
